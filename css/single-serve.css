@@ -32,6 +32,7 @@
 	opacity: 1.0;
 	width: 500px;
 	height: 200px;
+	cursor:url(https://www.dhresource.com/100x100/f2/albu/g6/M01/A6/E9/rBVaSFqzYbmAFo6KAAPuv1WJMfE673.jpg),auto;
 	
 
 }
@@ -52,7 +53,7 @@
 	opacity: 1.0;
 	width: 300px;
 	height: 200px;
-	cursor: url(https://i1.sndcdn.com/artworks-000216779139-zwfsyt-large.jpg), auto;
+	cursor: url(https://i1.sndcdn.com/artworks-000216779139-zwfsyt-large.jpg),auto;
 
 	
 
@@ -107,8 +108,9 @@
 
 .cap:hover {
 	opacity: 1.0;
-	width: 300px;
-	height: 200px;
+	width: 400px;
+	height: 300px;
+	cursor:url(http://wiki.marvel-world.com/images/thumb/a/a8/Salle_des_Tresors_d_Odin_Terre-199999-Tesseract.jpg/120px-Salle_des_Tresors_d_Odin_Terre-199999-Tesseract.jpg), auto;
 }
 
 .thor{
@@ -124,7 +126,9 @@
 .thor:hover {
 	opacity: 1.0;
 	width:400px;
-	height:200px
+	height:200px;
+	cursor:url(https://yt3.ggpht.com/-Rzb12hz-Lco/AAAAAAAAAAI/AAAAAAAAAAA/kn96hjzHye8/s100-mo-c-c0xffffffff-rj-k-no/photo.jpg), auto;
+
 }
 
 .widow{
@@ -161,6 +165,7 @@
 	opacity: 1.0;
 	width: 400px;
 	height:200px;
+	cursor:url(https://vignette.wikia.nocookie.net/disney/images/9/98/Power_Stone-Clean.png/revision/20180408204206/scale-to-width-down/120), auto;
 }
 
 .spider{
@@ -211,6 +216,7 @@
 	opacity:1.0;
 	width: 400px;
 	height:300px;
+	cursor:url(https://images.fineartamerica.com/images/artworkimages/square/1/soul-infinity-stone-poster-style-2-cole-iba.jpg), auto;
 }
 
 .hulk{
@@ -260,9 +266,127 @@
 }
 
 .rocket{
-	opacity:
+	position: absolute;
 	width: 100px;
 	height:100px;
-	top:900px;
-	left: 1200px;
+	top:860px;
+	left: 1600px;
+	opacity: 0;
+	overflow: hidden;
+}
+
+.rocket:hover {
+	opacity: 1.0;
+	width:300px;
+	height:200px;
+}
+
+.warmachine {
+	position: absolute;
+	width:100px;
+	height:100px;
+	top:650px;
+	left:1420px;
+	opacity:0;
+	overflow:hidden;
+}
+
+.warmachine:hover {
+	position: absolute;
+	width:400px;
+	height:250px;
+	opacity:1.0;
+}
+
+.mantis {
+	position:absolute;
+	width:100px;
+	height:100px;
+	top:715px;
+	left:1320px;
+	opacity:0;
+	overflow:hidden;
+}
+
+.mantis:hover {
+	position:absolute;
+	width:300px;
+	height:200px;
+	opacity:1.0;
+}
+
+.okoye {
+	position:absolute;
+	width:100px;
+	height:100px;
+	left:700px;
+	top:630px;
+	opacity:0;
+}
+
+.okoye:hover {
+	width:300px;
+	height:200px;
+	opacity:1.0;
+}
+
+.shuri {
+	position:absolute;
+	width:100px;
+	height:100px;
+	left:600px;
+	top:662px;
+	opacity:0;
+
+}
+
+.shuri:hover {
+	width:300px;
+	height:200px;
+	opacity:1.0;
+}
+
+.nebula {
+	position:absolute;
+	width:100px;
+	height:100px;
+	left:450px;
+	top:470px;
+	opacity:0;
+}
+
+.nebula:hover {
+	opacity:1.0;
+	width:400px;
+	height:200px;
+}
+
+.falcon {
+	position:absolute;
+	width:100px;
+	height:100px;
+	left:290px;
+	top:580px;
+	opacity:0;
+}
+
+.falcon:hover {
+	width:400px;
+	height:200px;
+	opacity:1.0;
+}
+
+.wong {
+	position:absolute;
+	width:100px;
+	height:100px;
+	left:1290px;
+	top:120px;
+	opacity:0;
+}
+
+.wong:hover {
+	width:400px;
+	height:200px;
+	opacity:1.0;
 }
