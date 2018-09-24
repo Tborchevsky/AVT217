@@ -52,7 +52,7 @@
 	opacity: 1.0;
 	width: 300px;
 	height: 200px;
-	cursor: url('https://www.google.com/search?q=mind+stone&hl=en&authuser=0&biw=1920&bih=958&tbs=isz:ex,iszw:36,iszh:36&tbm=isch&source=lnt#imgrc=jkxiScEqQ-FvzM:'), auto;
+	cursor: url(https://i1.sndcdn.com/artworks-000216779139-zwfsyt-large.jpg), auto;
 
 	
 
@@ -143,4 +143,126 @@
 	opacity: 1.0;
 	width: 400px;
 	height: 200px;
+}
+
+.lord{
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	top: 550px;
+	left: 1220px;
+	background-color: red;
+	overflow:hidden;
+	opacity: 0;
+
+}
+
+.lord:hover {
+	opacity: 1.0;
+	width: 400px;
+	height:200px;
+}
+
+.spider{
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	top: 800px;
+	left: 900px;
+	overflow:hidden;
+	opacity: 0;
+
+}
+
+.spider:hover {
+	opacity: 1.0;
+	width: 400px;
+	height:200px;
+
+}
+
+.groot{
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	top: 720px;
+	left: 1100px;
+	overflow:hidden;
+	opacity: 0;
+}
+
+.groot:hover{
+	opacity: 1.0;
+	width: 400px;
+	height: 200px
+}
+
+.gamora{
+	position: absolute;
+	width: 100px;
+	height:100px;
+	top:700px;
+	left:1220px;
+	overflow:hidden;
+	opacity:0;
+}
+
+.gamora:hover{
+	opacity:1.0;
+	width: 400px;
+	height:300px;
+}
+
+.hulk{
+	position: absolute;
+	width:100px;
+	height:100px;
+	top:700px;
+	left:450px;
+	opacity: 0;
+}
+
+.hulk:hover{
+	opacity: 1.0;
+	width:300px;
+	height:200px;
+}
+
+.bucky{
+	position:absolute;
+	width:100px;
+	height:100px;
+	top:780px;
+	left:320px;
+	opacity: 0;
+}
+
+.bucky:hover {
+	width:400px;
+	height:200px;
+	opacity: 1.0;
+}
+
+.drax{
+	position:absolute;
+	width:100px;
+	height:100px;
+	top:700px;
+	left:1600px;
+	opacity:0;
+
+}
+
+.drax:hover{
+	opacity:1.0;
+	width:300px;
+	height:200px;
+}
+
+.rocket{
+	opacity:
+	width: 100px;
+	height:100px;
+	top:900px;
+	left: 1200px;
 }
