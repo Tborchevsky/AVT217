@@ -3,10 +3,19 @@
 p{
 
 font-family: 'Chakra Petch', sans-serif;
-padding: 40px;
+padding: 60px;
 
 }
 
 h1{
 font-family: 'Notable', sans-serif;
+padding: 40px;
 }
+
+p.covenant{
+	font-family: 'Orbitron', sans-serif;
+	padding: 60px;
+	font-size: 20px;
+	font-stretch: expanded;
+}
+
