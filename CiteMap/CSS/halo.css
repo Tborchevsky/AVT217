@@ -1,10 +1,14 @@
-
+img{
+	position:absolute;
+	opacity:0.1;
+}
 
 p{
 
 font-family: 'Chakra Petch', sans-serif;
-padding: 60px;
-
+padding: 160px;
+text-align:center;
+color:white;
 }
 
 h1{
@@ -21,4 +25,8 @@ p.covenant{
 
 p.two {
 	font-family: 'Saira', sans-serif;
+}
+
+a {
+	color:white;
 }
