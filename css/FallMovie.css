@@ -1,0 +1,28 @@
+img  {min-width:100%;}
+
+body {
+	background-color:black;
+}
+
+.imandpic {
+
+}
+
+img:hover {
+	display:none;
+}
+
+.movietitle {
+	position: fixed;
+	top:100px;
+}
+
+p {
+	color:white;
+	
+}
+.michael {
+	position:relative;
+	top: 800px;
+	width: min-width:100%;
+}
