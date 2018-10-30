@@ -1,0 +1,200 @@
+
+body {
+	background-color: black;
+}
+
+
+
+.head1{
+	background-color:white;
+	width:250px;
+	height:200px;
+	position: absolute;
+	top: 260px;
+	left: 475px;
+	border-radius: 50%;
+}
+
+
+.head4{
+	background-color:white;
+	width:250px;
+	height:200px;
+	position: relative;
+	border-radius: 50%;
+}
+
+.head2 {
+	background-color: white;
+	width: 100px;
+	height: 100px;
+	position: relative;
+
+}
+
+.head3 {
+	background-color: white;
+	width: 100px;
+	height: 100px;
+	position: relative;
+	left: 150px;
+	top: -100px;
+}
+.maskb{
+	background-color:white;
+	width:216px;
+	height:80px;
+	position: relative;
+	top: -250px;
+	left: 18px;
+}
+
+.eyes {
+	background-color: black;
+	width: 50px;
+	height: 50px;
+	position: relative;
+	top: -300px;
+	left: 50px;
+	border-radius: 50px/25px;
+}
+
+.eyes2 {
+	background-color: black;
+	width: 50px;
+	height: 50px;
+	position: relative;
+	top: -340px;
+	left: 150px;
+	border-radius: 50px/25px;
+}
+
+.mouth {
+	background-color: black;
+	width: 100px;
+	height: 25px;
+	position: relative;
+	left: 75px;
+	top: -300px;
+
+}
+
+.hair{
+	background-color: #006666;
+	width: 300px;
+	height: 100px;
+	position: absolute;
+	top :160px;
+	left: 445px;
+}
+
+.hair2 {
+	background-color: #006666;
+	width: 100px;
+	height: 100px;
+	position: relative;
+	top :-100px;
+	left: 0px;
+
+}
+
+.hair3 {
+	background-color: #006666;
+      width: 0;
+      height: 0;
+      border-left: 50px solid black;
+      border-right: 50px solid black;
+      border-bottom: 100px solid  #006666 ;
+      position: relative;
+      top: -200px;
+    }
+
+.hair4 {
+	background-color: #006666;
+	width: 300px;
+	height: 200px;
+	position: relative;
+	top :-250px;
+	left: 0px;
+	border-radius: 100px/50px;
+}
+
+.hair5 {
+	background-color: #006666;
+      width: 0;
+      height: 0;
+      border-left: 50px solid black;
+      border-right: 50px solid black  ;
+      border-bottom: 100px solid  #006666 ;
+      position: absolute;
+      top: -700px;
+      left: 800px;
+ }
+
+.body {
+	background-color: #1f1f7a;
+	width: 300px;
+	height: 600px;
+	position: absolute;
+	top: 450px;
+	left: 450px;
+}
+	
+.body2 {
+	  background-color: #1f1f7a;   
+      width: 700px;
+      height: 100px;
+      background: #1f1f7a;
+      border-radius: 100px / 50px;
+      position: relative;
+      left: -200px;
+    }
+.body3 {
+	background-color: #1f1f7a;
+	width: 90px;
+	height: 200px;
+	position: relative;
+	top: -90px;
+	left: -240px;
+	transform: rotate(45deg);
+}
+
+.knife {
+	background-color: grey;
+	width:100px;
+	height: 100px;
+	position: relative;
+	left: -320px;
+	top: -180px;
+	transform: rotate(45deg);
+}
+
+.Knife2 {
+	   width: 0;
+      height: 0;
+      border-bottom: 200px solid silver;
+      border-right: 100px solid transparent;
+      position: relative;
+      left: -415px;
+      top: -445px;
+      transform: rotate(-40deg);
+      
+}
+
+.body4 {
+	background-color: yellow;
+	width: 300px;
+	height: 200px;
+	position: relative;
+	top: -500px;
+	left: 350px;
+	border-radius: 150px/75px;
+}
+
+.bod {
+	background-color: yellow:
+	width: 300px;
+	height: 100px;
+	left: 100px;
+	top: 100px;
+}
