@@ -192,9 +192,23 @@ body {
 }
 
 .bod {
-	background-color: yellow:
-	width: 300px;
-	height: 100px;
-	left: 100px;
-	top: 100px;
+	background-color: yellow;
+	width: 250px;
+	height: 200px;
+	position: relative;
+	left: 370px;
+	top: -800px;
+	border-radius: 100px/95px;
+}
+
+.bod2 {
+	background-color: black;
+	width: 250px;
+	height: 200px;
+	position: absolute;
+	left: 850px;
+	top: 500px;
+	
+
+	border-radius: 100px/95px;
 }
