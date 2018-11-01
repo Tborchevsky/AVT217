@@ -1,10 +1,10 @@
-#container {
+.container {
 	width: 75vw;
 	margin: auto;
 }
 
 body {
-	margin: auto;
+	margin: ;
 	background-color:  
 }
 
@@ -17,27 +17,43 @@ body {
 .clearfix:after {
     clear: both;
 }
+
+h1 {font-size: 55px;
+	text-align: center;
+}
  
-h1 {font-size: 30px;
+h2 {font-size: 30px;
 text-align: center;
 }
 
 
 
 
- .headerColumn,.topColumn1,.leftColumn1, .rightColumn1 {
+ .Title, .space, .headerColumn,.topColumn1,.leftColumn1, .rightColumn1 {
 	float: left;
+	margin: auto;
 }
-
-
+.space{
+		width:1400px;
+		height:200px;
+		background-color: brown;
+	}
+.Title {
+	width: 1400px;
+	height: 100px;
+	background-color: blue;
+}
 
 .headerColumn {
 	width: 1400px;
 	height: 100px;
+	color: blue;
+
 	
 
 	background-color: red;
 }
+
 
 .topColumn1{
 	width: 1400px;
@@ -55,12 +71,104 @@ text-align: center;
 }
 
 .rightColumn1{
-	width:700px;
-	height:500px;
+	width:660px;
+	height:480px;
 	margin: 5px;
+	padding: 10px;
 	background-color:green;
 }
 
+@media only screen and (max-width: 1180px) { /* its at 1163 for testing */
+		.container {
+		width: 90vw;
+		margin: auto;
+	}
 
-@media only screen and (max-width: 1325px )
+	body {
+		margin: ;
+		background-color:  
+	}
+
+	.clearfix:before,
+	.clearfix:after {
+	    content: " "; /* 1 */
+	    display: table; /* 2 */
+	}
+	 
+	.clearfix:after {
+	    clear: both;
+	}
+	h1 {font-size: 55px;
+	text-align: center;
+}
+
+	h2 {font-size: 30px;
+	text-align: center;
+	}
+
+
+
+
+	 .Title, .space, .container,.headerColumn,.topColumn1,.leftColumn1, .rightColumn1 {
+		float: left;
+		margin: auto;
+	}
+
+	.space{
+		width:1050px;
+		height:100px;
+		background-color: brown;
+	}
+
+	.Title {
+	width: 900px;
+	height: 100px;
+	background-color: blue;
+	margin: 50px;
+	}
+	.headerColumn {
+		width: 950px;
+		height: 100px;
+		margin: 40px;
+		text-align: center;
+
+		
+
+		background-color: red;
+	}
+
+	img{ 
+		width: 100%;
+	 }
+
+	iframe{
+		width: 100%;
+	}
+
+	.topColumn1{
+		width: 1050px;
+		height:550px;
+		margin: 10px;
+		background-color:blue;
+
+	}
+
+	.leftColumn1{
+		width: 500px;
+		height: 500px;
+		margin: 30px;
+		background-color: blue;
+		
+	}
+
+	.rightColumn1{
+		width:390px;
+		height:480px;
+		margin: 30px;
+		padding: 10px;
+		background-color:green;
+	}
+
+}
+
 
