@@ -1,0 +1,143 @@
+#container{
+
+}
+.jqClick {
+	border-bottom: 10px
+	background-color: white;
+
+	
+}
+.box{ 
+width: 100vw;
+height: 60vw;
+background-color: red;
+ }
+
+ .box2{ 
+width: 100vw;
+height: 60vw;
+background-color: blue;
+ }
+
+ .box3{
+ 	width:100vw;
+ 	height: 60vw;
+ 	background-color: maroon;
+ }
+
+ .header {
+ 	width: 1500px;
+ 	height: 200px;
+ 	margin: 0;
+ 	text-align: center;
+ 	background-color: brown;
+ 	font-size:120px;
+ }
+
+ .bigger{
+width: 500px;
+height: 400px;
+transition: all 2s ease;
+font-size: 150px;
+
+ }
+
+ h1{ 
+ font-size: 50px;
+text-align: center;
+margin: 0;
+padding-top: 300px;
+  }
+
+ h2{
+ font-size: 200px;
+text-align: center;
+margin: 0;
+padding-top: 300px;
+
+ }
+
+ .header2{
+ 	width: 1000px;
+ 	height:400px;
+ 	background-color: grey;
+ 	font-size: 150px;
+ 	padding-left: 400px;
+ 	padding-top: 250px;
+ 	text-align: center;
+
+ }
+
+.jclick{
+	border-bottom: 10px;
+	
+}
+
+.pic {
+	color: red;
+}
+
+.Clank{
+	color: grey;
+
+}
+
+.header3{
+		width: 1000px;
+ 	height:400px;
+ 	font-size: 150px;
+ 	padding-left: 400px;
+ 	padding-top: 250px;
+ 	text-align: center;
+}
+
+.jjclick{
+	border-bottom: white;
+	width: 10px;
+	
+
+}
+
+.header4{
+		width: 1000px;
+ 	height:400px;
+ 	font-size: 150px;
+ 	padding-left: 400px;
+ 	padding-top: 250px;
+ 	text-align: center;
+}
+
+.tclick{
+	border-bottom: white;
+	width: 10px;
+
+}
+
+.halo{
+	
+	background-color: green;
+}
+
+.gclick{
+	border-bottom: white;
+	width: 10px;
+	
+}
+
+.header5{
+		width: 1000px;
+ 	height:400px;
+ 	font-size: 150px;
+ 	padding-left: 400px;
+ 	padding-top: 250px;
+ 	text-align: center;
+}
+
+.metal{
+	color: silver;
+	font-size: 300px;
+}
+
+.cod{
+	color:black;
+}
