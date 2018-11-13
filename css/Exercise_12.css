@@ -10,19 +10,19 @@
 .box{ 
 width: 100vw;
 height: 60vw;
-background-color: red;
+background-color: white;
  }
 
  .box2{ 
 width: 100vw;
 height: 60vw;
-background-color: blue;
+background-color: white;
  }
 
  .box3{
  	width:100vw;
  	height: 60vw;
- 	background-color: maroon;
+ 	background-color: white;
  }
 
  .header {
@@ -30,7 +30,7 @@ background-color: blue;
  	height: 200px;
  	margin: 0;
  	text-align: center;
- 	background-color: brown;
+ 	background-color: white;
  	font-size:120px;
  }
 
@@ -60,7 +60,7 @@ padding-top: 300px;
  .header2{
  	width: 1000px;
  	height:400px;
- 	background-color: grey;
+ 	background-color: white;
  	font-size: 150px;
  	padding-left: 400px;
  	padding-top: 250px;
