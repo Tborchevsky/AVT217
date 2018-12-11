@@ -1,16 +1,160 @@
 .container{
-	width: 88vw;
+	width: 94vw;
 	height: 48vw;
-	margin-left: 100px;
-	background-color: red;
+	margin-left: 50px;
+
+	
+
+}
+
+.text {
+	position: relative;
+	bottom: 300px;
+	width: 230px;
+	height: 300px;
+	letter-spacing: 3px;
+
+}
+
+body{
+	background-repeat: no-repeat;
+	background-color: black;
+}
+
+.Title {
+	float: left;
+	background-color: blue;
+	position: relative;
+	top: 50px;
+	left: 50px;
+	width: 500px;
+	
+}
+
+
+h1{ font-family: 'Lobster', cursive;
+	font-size: 60px;
+	color: white;
+	text-align: center;
+
+ }
+h2 {
+	margin: 15px;
+}
+
+h3{
+	color: white;
+	width: 100px;
+	font-size: 20px;
+	margin-left: 50px;
+	margin-top: 250px;
+
+	
+}
+ .nav{
+
+ 	position: relative;
+ 	left: 1100px;
+ 	top: 100px;
+ 	width: 600px;
+ 	height: 100px;
+ 	font-size: 20px;
+ 	color: white;
+ 	background-color: grey;
+ }
+
+ .head{ font-family: 'Lobster', cursive;
+ 	position: relative;
+ 	float: left;
+ 	left: 500px;
+ 	top: 100px;
+ 	background-color: blue;
+ 	width: 900px;
+ 	height: 50px;
+
+  }
+
+  .logo {
+  	float: left;
+  	position: relative;
+  	left: 500px;
+  	width: 300px;
+  	height: 300px;
+  }
+
+  .yet {
+  	position: absolute;
+  	top: 15px;
+  	left: 800px;
+
+  }
+
+  .nnav{
+  	top: 270px;
+  	left: 950px;
+  	width: 200px;
+  }
+
+  .in{
+  	
+  	display: none;
+  	position: relative;
+  	width: 400px;
+  	height: 400px;
+  	top: -700px;
+  	left: -90px;
+  	padding: 10px;
+  	
+
+  }
+
+  h3:hover + .in {
+  	display: block;
+
+  }
+
+  .showdiv {
+  	display: none;
+  	width: 400px;
+  	height: 200px;
+  	color: grey;
+  }
+
+  .newj{
+  	float: left;
+	width: 1800px;
+	height: 400px;
+	background-color: green;
+	text-align: center;
+
+  }
+
+  p {
+  	color: white;
+  	position: absolute;
+  	top: 400px;
+  	left: 150px;
+  }
+
+}
+ 
+  @media only screen and (max-width: 1355px){
+  	.container{
+	width: 88vw;
+	height: 46vw;
+	margin-left: 80px;
+	
 
 }
 
 .Title {
-	background-color: red;
+	float: left;
+	background-color: grey;
+	position: relative;
+	top: 20px;
 	width: 500px;
 	height: 100px;
-	margin: 50px;
+
 }
 
 
@@ -19,10 +163,6 @@ body {
 	background-color: black;
 }
 
-img { margin-left: 400px;
-
-
-}
 
 h1{ font-family: 'Lobster', cursive;
 	font-size: 60px;
@@ -44,21 +184,22 @@ h3{
 	
 }
  .nav{
- 	width: 540px;
+ 	float: left;
+ 	position: relative;
+ 	width: 560px;
  	height: 200px;
  	font-size: 20px;
- 	margin-top: 50px;
- 	margin-left: 1200px;
- 	color: white;
- 	background-color: red;
+ 	left: 600px;
+ 	top: 230px;
+ 	background-color: blue;
  }
 
  .head{ font-family: 'Lobster', cursive;
- 	margin-left: 700px;
- 		margin-top: -100px;
- 	background-color: blue;
+ 	position: relative;
+ 	left: 250px;
  	width: 450px;
- 	height: 50;
+ 	height: 50px;
+ 	background-color: brown;
 
   }
 
@@ -70,9 +211,14 @@ h3{
   }
 
   .pic {
-  	margin-left: -120px;
+  	position: relative;
+  	left: 250px;
+  	width: 500px;
+  	height: 300px;
   	background-color: grey;
+ 
   }
+
 
   .nnav{
   	margin-left: 1550px;
@@ -108,31 +254,40 @@ h3{
   	color: grey;
   }
 
-  .picture {
-  	width: 800px;
-  	margin-left: -100px;
-
+	.newj {
+  		position: relative;
+  		top:30px;
+	width: 1100px;
+	height: 300px;
+  	
   }
 
   .word {
   	background-color: red
   	width: 800px;
   }
+  }
+img {
+	max-width: 80
+}
 
+}
   @media only screen and (max-width: 1190px) {
+}
 .container{
 	width: 88vw;
 	height: 58vw;
-	margin-left: 100px;
+	margin-left: 50px;
 	background-color: red;
 
 }
 
 .Title {
-	background-color: red;
+	background-color: tan;
+	position: relative;
 	width: 500px;
 	height: 100px;
-	margin: 50px;
+
 }
 
 
@@ -167,10 +322,12 @@ h3{
 	
 }
  .nav{
+ 	position: relative;
+ 	margin-top: 200px;
+ 	left: 600px;
+ 	top: 1200px;
  	width: 500px;
  	height: 200px;
- 	font-size: 17px;
- 	margin-left: 550px;
  	color: white;
  	background-color: red;
  }
@@ -232,11 +389,14 @@ h3{
   	color: grey;
   }
 
-  .picture {
+  .newj {
+  	position: relative;
+  	top: 50px;
+  	left: 25px;
   	width: 700px;
-  	height: 300px;
-  	background-color: grey;
-  	margin-left: -200px;
+  	height: 900px;
+  	background-color: blue;
+  	
   }
 
   .word {
@@ -248,18 +408,19 @@ h3{
 
 .container{
 	width: 88vw;
-	height: 58vw;
-	margin-left: 60px;
+	height: auto;
+	margin-left: 25px;
 	background-color: red;
 
 }
 
 .Title {
-	background-color: red;
+	background-color: pink;
+	position: relative;
+	right: 500px;
 	width: 500px;
 	height: 100px;
-	margin: 50px;
-	margin-left: -60px;
+	
 }
 
 
@@ -268,11 +429,9 @@ body {
 	background-color: black;
 }
 
-img { max-width: 100%;
-	height: auto;
 
 
-}
+
 
 h1{ font-family: 'Lobster', cursive;
 	font-size: 45px;
@@ -303,10 +462,11 @@ p{
 	
 }
  .nav{
+ 	position: relative;
+ 	top: -110px;
+	left: 50px;
  	width: 500px;
  	height: 200px;
- 	font-size: 16px;
- 	margin-left: 350px;
  	color: white;
  	background-color: red;
  }
@@ -369,11 +529,17 @@ p{
   	color: grey;
   }
 
-  .picture {
-  	width: 500px;
-  	height: 300px;
-  	background-color: grey;
 
+
+  .newj{
+  	max-width: 94%;
+  	position: relative;
+  	right: 200px;
+  	width: 1000px;
+  	height: 250px;
+  	color: orange;
+  	display: inline-block;
+  	
   }
 
   .word {
@@ -382,6 +548,151 @@ p{
   }
 
 
+}
+
+  @media only screen and (max-width: 470px){
+.container{
+	width: 88vw;
+	height: 45vw;
+	margin-left: 60px;
+	background-color: red;
+
+}
+
+.Title {
+	background-color: green;
+	position: relative;
+	width: 100px;
+	height: 100px
+	right: 220px;
+	
+}
+
+
+body {
+	background-repeat: no-repeat;
+	background-color: black;
+}
+
+img { max-width: 100%;
+	height: auto;
+
+
+}
+
+h1{ font-family: 'Lobster', cursive;
+	font-size: 30px;
+	color: white;
+	text-align: center;
+
+ }
+h2 {
+	margin: 0;
+	font-size: 18px;
+}
+
+h3{
+	color: white;
+	width: 30px;
+	font-size: 20px;
+	margin-left: 50px;
+	margin-top: -25px;
+}
+
+
+p{
+	color: white;
+	font-size: 30px;
+	padding: 12px;
+
+}
+
+	
+}
+ .nav{
+ 	float: left;
+ 	position: relative
+ 	width: 500px;
+ 	height: 200px;
+ 	font-size: 16px;
+ 	right: 200px;
+ 	color: white;
+ 	background-color: orange;
+ }
+
+ .head{ font-family: 'Lobster', cursive;
+ 	margin-left: 200px;
+ 		margin-top: -100px;
+ 	background-color: blue;
+ 	width: 420px;
+ 	height: 50;
+
   }
 
+  .logo {
+  	margin-left: -410px;
+  	
+  	width: 300px;
+  	height: 200px;
+  }
+
+  .pic {
+  	margin-left: -170px;
+  	background-color: grey;
+  	width: 400px;
+  	height: 170px;
+  }
+
+  .nnav{
+  	margin-top: 400px;
+  	margin-left: 640px;
+  	width: 200px;
+  	font-size: 16px;
+  }
+
+  .in{
+  	
+  	display: none;
+  	position: relative;
+  	width: 200px;
+  	height: 200px;
+  	margin-top: 150px;
+  	margin-left: 110px;
+  	padding: 10px;
+  	border-style: solid;
+  	border-width: 15px;
+  	border-color: green;
   
+  
+
+  }
+
+  h3:hover + .in {
+  	display: block;
+  }
+
+  .showdiv {
+  	display: none;
+  	width: 400px;
+  	height: 200px;
+  	color: grey;
+  }
+
+  .backgroundpic{
+  	position: relative;
+  	width:400px;
+  	height:200px;
+  	right: 100px;
+
+  	color: purple;
+  	display: inline-block;
+  
+  
+  }
+ 
+
+  .word {
+  	background-color: red
+  	width: 800px;
+  }
+  }
